@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Function</title>
+</head>
+
+<body>
+
+    <script>
+        function areaofcircle(radius) {
+            const area = 3.14 * (radius * radius);
+            console.log(`the area is : ${area}`);
+        }
+        areaofcircle(10);
+
+        //Argument and Return, No Argument But Return, Argument But No Return and No Argument And No Return
+
+
+        function areaofrectangle(side) {
+            const area = side * side;
+            return side;
+        }
+        const area = areaofrectangle(20);
+        console.log(`The area of rectangle is :${area}`);
+
+
+        const length = 5;
+        const breadth = 10;
+        function areaofsquare() {
+            const area1 = length * breadth;
+            return area1;
+        }
+        const area1 = areaofsquare();
+        console.log(`The area of square is :${area1}`);
+
+
+        function areaofbox(side) {
+            const areaofbox = side * side;
+            console.log(`The area of box is :${areaofbox}`);
+        }
+        areaofbox(20);
+
+
+        function saygoodmorning() {
+            console.log('Good Morning')
+        }
+        saygoodmorning();
+        
+    </script>
+</body>
+
+</html>
